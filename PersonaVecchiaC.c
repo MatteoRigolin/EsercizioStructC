@@ -1,3 +1,25 @@
+// @file PersonaVecchiaC.c
+// @date file creato il 8/11/2021
+
+/**
+* @struct Persona_T
+* @param char nome
+* @param char cognome
+* @param int età
+* @fn Persona_T inserisci()
+* @brief funzione che crea una nuova persona con nome, cognome e età
+* @param Persona_T persona, nuova persona creata
+* @return Persona_T: la funzione ritorna la nuova persona creata
+* @fn Persona_T vecchio(Persona_T persone[])
+* @brief funzione che determina la persona più vecchia
+* @param int anniVecchio, età della persona più vecchia
+* @param Persona_T personaVecchia, persona con l'età maggiore
+* @return Persona_T: la funzione ritorna la persona più vecchia nell'array
+* @date 8/11/2021
+* @author Matteo Rigolin
+* @file PersonaVecchiaC.c
+*/
+
 #include <stdio.h>
 
 typedef struct
